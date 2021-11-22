@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Pengenalan fungsi React "react-router-dom": "^6.0.2" Cards.js
+
 In the project directory, you can run:
 
 ### `yarn start`
