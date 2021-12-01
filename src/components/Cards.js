@@ -3,7 +3,7 @@ import './Cards.css';
 import CardItem from './CardItem';
 import img9 from '../assets/images/img-9.jpg';
 // import img2 from '../assets/images/img-2.jpg'
-// import img3 from '../assets/images/img-3.jpg'
+import img3 from '../assets/images/img-3.jpg'
 // import img4 from '../assets/images/img-4.jpg'
 // import img8 from '../assets/images/img-8.jpg'
 const img2 = require('../assets/images/img-2.jpg').default;
@@ -33,9 +33,9 @@ function Cards() {
                     <ul className='cards__items'>
                         <CardItem
                             //? Image yg ditaro di public harus membuat folder assets dan harus menggunakan path seperti ini cara ini menggunakan '
-                            src={'/assets/images/img-3.jpg'}
+                            // src={'/assets/images/img-3.jpg'}
                             // src={"../assets/images/img-3.jpg"}
-                            // src={img3}
+                            src={img3}
                             text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
                             label='Mystery'
                             path='/services'
